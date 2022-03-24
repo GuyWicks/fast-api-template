@@ -1,0 +1,54 @@
+site_name: Ansible Playbook
+site_author: Guy Wicks
+repo_url: https://github.com/GuyWicks/ansible-playbook
+repo_name: GuyWicks/ansible-playbook
+copyright: Copyright &copy; 2022 Guy Wicks
+
+theme:
+  name: material
+  #name: mkdocs
+  #name: readthedocs
+  features:
+    - content.code.annotate
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    #- navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+
+  icon:
+    repo: fontawesome/brands/github
+
+  #palette:
+  #  - scheme: default
+  #    toggle:
+  #      icon: material/toggle-switch-off-outline
+  #      name: Switch to dark mode
+  #  - scheme: slate
+  #    toggle:
+  #      icon: material/toggle-switch
+  #      name: Switch to light mode
+
+markdown_extensions:
+  - meta
+  - tables
+  - attr_list
+  - def_list
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

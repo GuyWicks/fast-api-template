@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs = "*"
+mkdocs-material = "*"
+fastapi = "*"
+aiofiles = "*"
+
+[dev-packages]
+uvicorn = "*"
+watchgod = "*"
+pytest = "*"
+pytest-watch = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"
