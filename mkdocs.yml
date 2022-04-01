@@ -1,8 +1,9 @@
-site_name: Ansible Playbook
+site_name: Fast API Template
 site_author: Guy Wicks
-repo_url: https://github.com/GuyWicks/ansible-playbook
-repo_name: GuyWicks/ansible-playbook
+repo_url: https://github.com/GuyWicks/fast-api-template
+repo_name: GuyWicks/fast-api-template
 copyright: Copyright &copy; 2022 Guy Wicks
+#docs_dir: docs_dir
 
 theme:
   name: material
